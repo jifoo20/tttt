@@ -7,6 +7,7 @@
 	<meta name="wakanda-version" content="4 build 4.128827"/>
 		<meta name="wakanda-build" content="4.128827"/>
 		<meta name="WAF.config.loadCSS" id="waf-palette" content="/walib/WAF/widget/palette/css/widget-palette-default.css"/>
+		<meta data-type="dataSource" data-lib="WAF" data-source="DataClass1" data-source-type="dataClass" data-dataType="string" data-autoLoad="true" name="WAF.config.datasources" data-id="dataClass1" content="dataClass1"/>
 		<meta name="WAF.config.loadCSS" id="waf-interface-css" content="styles/index.css"/>
 		<meta name="WAF.config.loadCSS" id="waf-project-css" content="/application.css"/>
 </head>
@@ -17,6 +18,7 @@
 		<div type="checkbox" id="checkbox1" data-type="checkbox" data-lib="WAF" data-label-position="right" data-label="Label" data-constraint-top="true" data-constraint-left="true" class="waf-widget waf-checkbox default inherited  "></div>
 		<label id="label2" for="combobox1" data-valign="middle" data-type="label" data-margin="5" data-lib="WAF" data-constraint-top="true" data-constraint-left="true" class="waf-widget waf-label default inherited  waf-label-combobox ">Label</label>
 		<div id="combobox1" data-type="combobox" data-limit="20" data-lib="WAF" data-label-position="left" data-label="Label" data-editable="true" data-constraint-top="true" data-constraint-left="true" data-autoDispatch="true" class="waf-widget waf-combobox default inherited  "><select></select></div>
+		<div id="dataGrid1" data-type="dataGrid" data-lib="WAF" class="waf-widget waf-dataGrid default inherited  " data-label-position="top" data-selection-mode="single" data-display-error="true" data-footer-text="item(s)" data-column="[{'sourceAttID':'ID','colID':'ID','width':'70','title':'ID'},{'sourceAttID':'attribute1','colID':'attribute1','width':'150','title':'attribute1'}]" data-constraint-left="true" data-label="" data-constraint-top="true" data-binding="dataClass1"></div>
 		<script type="text/javascript" src="/waLib/WAF/Loader.js"></script>
 	</body>
 </html>
